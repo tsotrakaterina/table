@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--Εφαρμογή8: Πίνακας με συγχώνευση κυψελών, κλάση καιεσωτερική μορφοποίηση CSS Αρχείο p08.html-->
+<html lang="el-GR">
+<head> 
+<title>Διεθνείς διοργανώσεις μπάσκετ</title>
+<metacharset="utf-8">
+<meta name="author" content="Ο συγγραφέας">
+<meta name="description" content="Πίνακας με συγχώνευση κυψελών, κλάση και εσωτερική μορφοποίηση CSS">
+<style>
+img{height:30px;}
+table{border:10px ridge green;
+		border-collapse:collapse;}
+		td,th{padding:10px;
+		vertical-align:center;
+		border:1px dashed green;}
+th{color:blue;
+	background-color:lightgreen;}
+.eb{background-color:lightblue;}
+div{float:left;}
+</style>
+</head>
+<body>
+<div>
+<table>
+<tr>
+<th>Διοργάνωση</th><th>Ξεκίνησε</th><th>Διοργανώτρια</th><th>Χρονιά</th><th  colspan="2">Νικήτρια</th></tr>
+<tr><td rowspan=3>Παγκόσμιο Κύπελλο Μπάσκετ</td><td rowspan=3>1950</td>
+<td rowspan=3>FIBA</td>
+<td>2006</td>
+<td>Ισπανία</td>
+<td><img src="esp.gif" alt="σημαία Ισπανίας"></td></tr>
+<tr><td>2010</td><td>ΗΠΑ</td><td><img src="usa.gif" alt="σημαία ΗΠΑ"></td></tr>
+<tr><td>2014</td><td>ΗΠΑ</td><td><img src="usa.gif" alt="σημαία ΗΠΑ"></td></tr>
+<tr class="eb"><td rowspan="6">Ευρωμπάσκετ</td><td rowspan="6">1935</td><td rowspan="6">FIBA Europe</td><td>2003</td><td>Λιθουανία</td>
+<td><img src="lt.gif" alt="σημαία Λιθουανίας"></td></tr>
+<tr class="eb"><td>2005</td><td>Ελλάδα</td><td><img src="gre.gif" alt="σημαία Ελλάδας"></td></tr>
+<tr class="eb"><td>2007</td><td>Ρωσία</td><td><img src="rus.gif" alt="σημαία Ρωσίας"></td></tr>
+<tr class="eb"><td>2009</td><td>Ισπανία</td><td><img src="esp.gif" alt="σημαία Ισπανίας"></td></tr>
+<tr class="eb"><td>2011</td><td>Ισπανία</td><td><img src="esp.gif" alt="σημαία Ισπανίας"></td></tr>
+<tr class="eb"><td>2013</td><td>Γαλλία</td><td><img src="fra.gif" alt="σημαία Γαλλίας"></td>
+</tr></table>
+</div>
+<div>
+<img src="ball.jpg" alt="basket ball" style="height:300px; margin-left:50%; margin-top:20%;">
+</div>
+</body>
+</html> 
